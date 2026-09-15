@@ -194,7 +194,7 @@ Skills are reusable, named workflows that bundle prompts and tool configurations
 | MCP skill builders | `src/skills/mcpSkillBuilders.ts` | Creates skills from MCP resources |
 | Skill registry | `src/skills/bundledSkills.ts` | Registration of all bundled skills |
 
-### Bundled Skills (16)
+### Bundled Skills (17)
 
 | Skill | Purpose |
 |-------|---------|
@@ -202,6 +202,7 @@ Skills are reusable, named workflows that bundle prompts and tool configurations
 | `claudeApi` | Direct Anthropic API interaction |
 | `claudeInChrome` | Chrome extension integration |
 | `debug` | Debugging workflows |
+| `delegationAudit` | Audit whether a manager agent's delegation to a subagent was real, from the tool-call trace |
 | `keybindings` | Keybinding configuration |
 | `loop` | Iterative refinement loops |
 | `loremIpsum` | Generate placeholder text |
